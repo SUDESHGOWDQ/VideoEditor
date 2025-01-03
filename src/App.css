@@ -1,0 +1,91 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.content,
+.side-panel {
+  width: 48%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type="number"],
+input[type="range"] {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.video-edit-controls {
+  margin-top: 30px;
+}
+
+.video-edit-controls label {
+  font-weight: bold;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls input {
+  width: 60px;
+  display: inline-block;
+}
+
+button {
+  width: 100%;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+h3 {
+  text-align: center;
+  color: #444;
+}
