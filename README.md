@@ -1,4 +1,4 @@
-# video Trim live demo : https://krisuvideotrim.netlify.app/
+# video Trim live demo : https://krisutrimvideo.netlify.app
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
